@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\DaisySP\Source\Control\adenv.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Control\adsr.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Control\line.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Control\phasor.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Drums\analogbassdrum.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Drums\analogsnaredrum.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Drums\hihat.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Drums\synthbassdrum.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Drums\synthsnaredrum.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Dynamics\balance.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Dynamics\compressor.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Dynamics\crossfade.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Dynamics\limiter.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Effects\autowah.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Effects\bitcrush.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Effects\chorus.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Effects\decimator.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Effects\flanger.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Effects\fold.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Effects\overdrive.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Effects\phaser.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Effects\reverbsc.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Effects\sampleratereducer.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Effects\tremolo.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Filters\allpass.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Filters\atone.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Filters\biquad.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Filters\comb.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Filters\mode.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Filters\moogladder.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Filters\nlfilt.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Filters\svf.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Filters\tone.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Noise\clockednoise.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Noise\grainlet.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Noise\particle.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\PhysicalModeling\drip.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\PhysicalModeling\KarplusString.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\PhysicalModeling\modalvoice.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\PhysicalModeling\pluck.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\PhysicalModeling\resonator.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\PhysicalModeling\stringvoice.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Synthesis\blosc.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Synthesis\fm2.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Synthesis\formantosc.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Synthesis\oscillator.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Synthesis\oscillatorbank.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Synthesis\variablesawosc.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Synthesis\variableshapeosc.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Synthesis\vosim.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Synthesis\zoscillator.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Utility\dcblock.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Utility\jitter.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Utility\metro.cpp" />
+    <ClCompile Include="..\..\Source\DaisySP\Source\Utility\port.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\DaisySP\Source\Control\adenv.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Control\adsr.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Control\line.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Control\phasor.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\daisysp.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Drums\analogbassdrum.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Drums\analogsnaredrum.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Drums\hihat.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Drums\synthbassdrum.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Drums\synthsnaredrum.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Dynamics\balance.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Dynamics\compressor.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Dynamics\crossfade.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Dynamics\limiter.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Effects\autowah.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Effects\bitcrush.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Effects\chorus.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Effects\decimator.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Effects\flanger.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Effects\fold.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Effects\overdrive.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Effects\phaser.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Effects\pitchshifter.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Effects\reverbsc.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Effects\sampleratereducer.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Effects\tremolo.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Filters\allpass.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Filters\atone.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Filters\biquad.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Filters\comb.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Filters\fir.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Filters\mode.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Filters\moogladder.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Filters\nlfilt.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Filters\svf.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Filters\tone.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Noise\clockednoise.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Noise\dust.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Noise\fractal_noise.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Noise\grainlet.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Noise\particle.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Noise\whitenoise.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\PhysicalModeling\drip.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\PhysicalModeling\KarplusString.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\PhysicalModeling\modalvoice.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\PhysicalModeling\pluck.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\PhysicalModeling\PolyPluck.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\PhysicalModeling\resonator.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\PhysicalModeling\stringvoice.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Synthesis\blosc.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Synthesis\fm2.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Synthesis\formantosc.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Synthesis\harmonic_osc.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Synthesis\oscillator.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Synthesis\oscillatorbank.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Synthesis\variablesawosc.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Synthesis\variableshapeosc.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Synthesis\vosim.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Synthesis\zoscillator.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Utility\dcblock.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Utility\delayline.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Utility\dsp.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Utility\jitter.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Utility\maytrig.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Utility\metro.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Utility\port.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Utility\samplehold.h" />
+    <ClInclude Include="..\..\Source\DaisySP\Source\Utility\smooth_random.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{8c1247c8-3567-48b8-a2c5-f47d04e4369d}</ProjectGuid>
+    <RootNamespace>DaisySP</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\$(Platform)\$(Configuration)\DaisySP\</OutDir>
+    <IntDir>$(SolutionDir)\$(Platform)\$(Configuration)\DaisySP\</IntDir>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\$(Platform)\$(Configuration)\DaisySP\</OutDir>
+    <IntDir>$(SolutionDir)\$(Platform)\$(Configuration)\DaisySP\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <Optimization>Disabled</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>C:\Users\Dylan\Documents\VST_dev\DaisySeedEmu\Source\DaisySP\Source\Utility;C:\Users\Dylan\Documents\VST_dev\DaisySeedEmu\Source\DaisySP\Source\Synthesis;C:\Users\Dylan\Documents\VST_dev\DaisySeedEmu\Source\DaisySP\Source\PhysicalModeling;C:\Users\Dylan\Documents\VST_dev\DaisySeedEmu\Source\DaisySP\Source\Noise;C:\Users\Dylan\Documents\VST_dev\DaisySeedEmu\Source\DaisySP\Source\Filters;C:\Users\Dylan\Documents\VST_dev\DaisySeedEmu\Source\DaisySP\Source\Effects;C:\Users\Dylan\Documents\VST_dev\DaisySeedEmu\Source\DaisySP\Source\Dynamics;C:\Users\Dylan\Documents\VST_dev\DaisySeedEmu\Source\DaisySP\Source\Drums;C:\Users\Dylan\Documents\VST_dev\DaisySeedEmu\Source\DaisySP\Source\Control;C:\Users\Dylan\Documents\VST_dev\DaisySeedEmu\Source\DaisySP\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\Users\Dylan\Documents\VST_dev\DaisySeedEmu\Source\DaisySP\Source\Utility;C:\Users\Dylan\Documents\VST_dev\DaisySeedEmu\Source\DaisySP\Source\Synthesis;C:\Users\Dylan\Documents\VST_dev\DaisySeedEmu\Source\DaisySP\Source\PhysicalModeling;C:\Users\Dylan\Documents\VST_dev\DaisySeedEmu\Source\DaisySP\Source\Noise;C:\Users\Dylan\Documents\VST_dev\DaisySeedEmu\Source\DaisySP\Source\Filters;C:\Users\Dylan\Documents\VST_dev\DaisySeedEmu\Source\DaisySP\Source\Effects;C:\Users\Dylan\Documents\VST_dev\DaisySeedEmu\Source\DaisySP\Source\Dynamics;C:\Users\Dylan\Documents\VST_dev\DaisySeedEmu\Source\DaisySP\Source\Drums;C:\Users\Dylan\Documents\VST_dev\DaisySeedEmu\Source\DaisySP\Source\Control;C:\Users\Dylan\Documents\VST_dev\DaisySeedEmu\Source\DaisySP\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
